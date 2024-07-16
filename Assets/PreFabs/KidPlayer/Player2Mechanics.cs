@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player2Mechanics : MonoBehaviour
 {
+    public Animator animator;
     public float speed = 10.5f;
     private Rigidbody2D rb;
 
@@ -22,18 +23,30 @@ public class Player2Mechanics : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             movement.y = 1;
+            animator.SetBool("UpKeyPress", true);
+            animator.SetBool("RightKeyPress", false);
+            animator.SetBool("LeftKeyPress", false);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
             movement.y = -1;
+            animator.SetBool("RightKeyPress", false);
+            animator.SetBool("UpKeyPress", false);
+            animator.SetBool("LeftKeyPress", false);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
             movement.x = 1;
+            animator.SetBool("RightKeyPress", true);
+            animator.SetBool("LeftKeyPress", false);
+            animator.SetBool("UpKeyPress", false);
         }
         if(Input.GetKey(KeyCode.LeftArrow))
         {
             movement.x = -1;
+            animator.SetBool("LeftKeyPress", true);
+            animator.SetBool("RightKeyPress", false);
+            animator.SetBool("UpKeyPress", false);
         }
 
         movement.Normalize(); // Ensure consistent movement speed in all directions

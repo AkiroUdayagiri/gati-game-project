@@ -39,6 +39,7 @@ public class PlayerMechanics : MonoBehaviour
             movement.x = 1;
             animator.SetBool("RightKeyPress", true);
             animator.SetBool("LeftKeyPress", false);
+            animator.SetBool("UpKeyPress", false);
         }
         if (Input.GetKey("a"))
         {
