@@ -6792,6 +6792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8ed590c35adc48d8a50d0f006629d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 574253804}
   speed: 10.5
 --- !u!4 &576758750 stripped
 Transform:
@@ -8841,6 +8842,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 768850054741344021, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1439076516784373333, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_Name
       value: Kid
@@ -8875,11 +8880,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2603423801028414233, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -92.9
+      value: -92.5
       objectReference: {fileID: 0}
     - target: {fileID: 2603423801028414233, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14
+      value: -13.65
       objectReference: {fileID: 0}
     - target: {fileID: 2603423801028414233, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8912,6 +8917,10 @@ PrefabInstance:
     - target: {fileID: 2603423801028414233, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229554886888538769, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
+      propertyPath: animator
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6045994823812360548, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -15905,7 +15914,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512204394}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1512204397
 Camera:
   m_ObjectHideFlags: 0
@@ -22033,6 +22042,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 768850054741344021, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1439076516784373333, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_Name
       value: Parent
@@ -22104,6 +22117,10 @@ PrefabInstance:
     - target: {fileID: 2603423801028414233, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229554886888538769, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
+      propertyPath: animator
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6045994823812360548, guid: 0af17d9368965435aa5b49f4f3da2e81, type: 3}
       propertyPath: m_Size.x
